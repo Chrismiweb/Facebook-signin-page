@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.whole-screen{
+    width: 100%;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.baby1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.baby1 h1{
+    font-size: 55px;
+    color: #1877f2;
+    font-family: arial;
+}
+.baby1 p{
+    font-size: 27px;
+    font-family: arial;
+    
+}
+.baby2{
+    width: 30%;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 20px;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.2);
+}
+.line{
+    width: 80%;
+    height: 1px;
+    background-color:darkgray;
+}
+.baby2 input{
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border:solid darkgrey;
+}
+.baby2 input::placeholder{
+    font-size: 15px;
+    padding-left: 20px;
+}
+.login{
+     width: 90%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 5px;
+}
+.baby2 p{
+    color: #1877f2;
+    cursor: pointer;
+}
+.create{
+    width: 50%;
+    height: 40px;
+    color: white;
+    background-color: #42b72a;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.create:hover{
+    background-color:green;
+}
